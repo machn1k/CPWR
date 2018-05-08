@@ -1,0 +1,35 @@
+# Mon Nov 30 07:37:15 EST 2015
+# Replay feature output
+# ---------------------
+# This file was built by the Replay feature of InstallAnywhere.
+# It contains variables that were set by Panels, Consoles or Custom Code.
+
+
+
+#Choose Install Set
+#------------------
+CHOSEN_FEATURE_LIST=TED,AA,CC,FA,DE,HP,IS,SE,XP,Topaz,TPA,HS,DP,SDK
+CHOSEN_INSTALL_FEATURE_LIST=TED,AA,CC,FA,DE,HP,IS,SE,XP,Topaz,TPA,HS,DP,SDK
+CHOSEN_INSTALL_SET=Topaz
+
+#Choose Install Folder
+#---------------------
+USER_INSTALL_DIR=C:\\Program Files\\Compuware\\Topaz Workbench
+
+#Shortcuts
+#---------
+SHORTCUT=\"Program menu shortcut\",\"Desktop shortcut\"
+SHORTCUT_1=Program menu shortcut
+SHORTCUT_2=Desktop shortcut
+SHORTCUT_BOOLEAN_1=1
+SHORTCUT_BOOLEAN_2=1
+
+#Install
+#-------
+-fileOverwrite_C\:\\Program\ Files\\Compuware\\Topaz\\uninstall\\uninstall.lax=Yes
+-fileOverwrite_C\:\\Program\ Files\\Compuware\\Topaz\\uninstall\\resource\\iawin32.dll=Yes
+-fileOverwrite_C\:\\Program\ Files\\Compuware\\Topaz\\uninstall\\resource\\win64_32_x64.exe=Yes
+-fileOverwrite_C\:\\Program\ Files\\Compuware\\Topaz\\uninstall\\resource\\remove.exe=Yes
+-fileOverwrite_C\:\\Program\ Files\\Compuware\\Topaz\\uninstall\\resource\\invoker.exe=Yes
+-fileOverwrite_C\:\\Program\ Files\\Compuware\\Topaz\\uninstall\\resource\\iawin64_x64.dll=Yes
+-fileOverwrite_C\:\\Program\ Files\\Compuware\\Topaz\\version.xml=Yes
